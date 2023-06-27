@@ -1,0 +1,46 @@
+2023-06-26/18:14:50		Start of Training
+2023-06-26/18:14:50		Entered the get_data method of the Data_Getter class
+2023-06-26/18:14:50		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-26/18:14:50		Entered the remove_columns method of the Preprocessor class
+2023-06-26/18:14:50		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-06-26/18:14:50		Entered the is_null_present method of the Preprocessor class
+2023-06-26/18:14:50		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-26/18:14:50		Entered the impute_missing_values method of the Preprocessor class
+2023-06-26/18:14:50		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-26/18:14:50		Entered the encode_categorical_columns method of the Preprocessor class
+2023-06-26/18:14:51		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-06-26/18:14:51		Entered the separate_label_feature method of the Preprocessor class
+2023-06-26/18:14:51		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-26/18:14:51		Entered the elbow_plot method of the KMeansClustering class
+2023-06-26/18:14:53		The optimum number of clusters is: 2 . Exited the elbow_plot method of the KMeansClustering class
+2023-06-26/18:14:53		Entered the create_clusters method of the KMeansClustering class
+2023-06-26/18:14:53		Entered the save_model method of the File_Operation class
+2023-06-26/18:14:53		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2023-06-26/18:14:53		succesfully created 2clusters. Exited the create_clusters method of the KMeansClustering class
+2023-06-26/18:14:53		Entered the scale_numerical_columns method of the Preprocessor class
+2023-06-26/18:14:53		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-06-26/18:14:53		Entered the scale_numerical_columns method of the Preprocessor class
+2023-06-26/18:14:53		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-06-26/18:14:53		Entered the get_best_model method of the Model_Finder class
+2023-06-26/18:14:53		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-06-26/18:15:16		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2023-06-26/18:15:16		AUC for XGBoost:0.6933902238191482
+2023-06-26/18:15:16		Entered the get_best_params_for_svm method of the Model_Finder class
+2023-06-26/18:15:23		SVM best params: {'C': 0.1, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2023-06-26/18:15:23		AUC for SVM:0.5
+2023-06-26/18:15:23		Entered the save_model method of the File_Operation class
+2023-06-26/18:15:23		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2023-06-26/18:15:23		Entered the scale_numerical_columns method of the Preprocessor class
+2023-06-26/18:15:23		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-06-26/18:15:23		Entered the scale_numerical_columns method of the Preprocessor class
+2023-06-26/18:15:23		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-06-26/18:15:23		Entered the get_best_model method of the Model_Finder class
+2023-06-26/18:15:23		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-06-26/18:15:37		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2023-06-26/18:15:37		AUC for XGBoost:0.6653079710144928
+2023-06-26/18:15:37		Entered the get_best_params_for_svm method of the Model_Finder class
+2023-06-26/18:15:41		SVM best params: {'C': 0.1, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2023-06-26/18:15:41		AUC for SVM:0.5
+2023-06-26/18:15:41		Entered the save_model method of the File_Operation class
+2023-06-26/18:15:41		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2023-06-26/18:15:41		Successful End of Training
